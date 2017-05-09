@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'icono';
+  src:  url('../fonts/icono.eot?32rbxc');
+  src:  url('../fonts/icono.eot?32rbxc#iefix') format('embedded-opentype'),
+    url('../fonts/icono.ttf?32rbxc') format('truetype'),
+    url('../fonts/icono.woff?32rbxc') format('woff'),
+    url('../fonts/icono.svg?32rbxc#icono') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icon2';
+  src:  url('../fonts/icon2.eot?twooia');
+  src:  url('../fonts/icon2.eot?twooia#iefix') format('embedded-opentype'),
+    url('../fonts/icon2.ttf?twooia') format('truetype'),
+    url('../fonts/icon2.woff?twooia') format('woff'),
+    url('../fonts/icon2.svg?twooia#icon2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/**
+.icon-home:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+**/
+
+body
+{
+  font-family: 'Khand', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+button{
+  font-size: 20px !important;
+}
+p{
+  font-size: 1.1em;
+}
+header
+{
+  background: white;
+}
+header p
+{
+  margin: 0;
+  background: #f14321;
+  color: white;
+  padding: 0.2em 1.2em;
+  text-align: right;
+}
+header figure img
+{
+  width: 150px;
+  margin: 1em 0
+}
+nav
+{
+  border-bottom: 2px solid #f14321;
+  background: #333;
+  border-radius: 1em 1em 0 0;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+  background: transparent;
+}
+nav ul
+{
+  margin: 0;
+  padding: 0;
+}
+nav ul li
+{
+  display: inline-block;
+  color: #f14321;
+  font-size: 1.2em;
+  margin:0 1.5%;
+}
+nav ul li a
+{
+  color:white;
+}
+.nav>li>a {
+    padding: 1px 15px;
+    border-right: 1px solid #f14321;
+}
+nav ul li a:focus, a:hover
+{
+  color: #f14321;
+  text-decoration: none;
+}
+.inicio
+{
+  /**background:rgba(0, 0, 0, 0.80);**/
+  margin: 0;
+}
+.inicio h1
+{
+  color:#f14321;
+  padding: 2.5em 0 1em 0;
+  margin: 0;
+  font-size: 4em;
+}
+.inicio h4
+{
+  border-radius: 0.3em;
+  font-size: 1.8em;
+  color: white;
+  margin: 1em 1em 8em 0;
+  transition: opacity 0.5s ease;
+  opacity: 10;
+  display: inline-block;
+}
+.inicio h4:hover
+{
+  opacity: 0.6;
+
+}
+.inicio a
+{
+  color: white;
+  display: block;
+  padding: 0.5em 1em;
+  list-style-type: none;
+}
+.fondoinicio{
+  background-image:url(../images/wall.jpg);
+  background-size: cover;
+}
+section a:focus
+{
+  color: white;
+  text-decoration: none;
+}
+section a:hover
+{
+  color: white;
+  text-decoration: none;
+}
+footer
+{
+  background: black;
+  color: white;
+  margin: 0;
+  BORDER-TOP: 5PX SOLID #f14321;
+  padding: 3em 0;
+}
+table
+{
+  width: 100%;
+}
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+footer p
+{
+  margin: 0;
+}
+.aliados img
+{
+  width: 200px;
+  margin: 3em 0;
+  filter: grayscale(2);
+}
+.aliados img:hover
+{
+  filter: grayscale(0);
+}
+.bano-inmueble
+{
+  position: absolute;
+  margin: 4em 0 0 7.3em;
+}
+.boton-home
+{
+  background:#f14321;
+  margin: 0;
+  padding: 0.3em 0;
+  border-radius: 0.8em 0 0 0;
+}
+.boton-home a:hover
+{
+  color: #333;
+}
+.boton-home a
+{
+  color: white;
+  border-left:1px solid transparent;
+}
+.boton-home a:focus
+{
+  color: white;
+}
+.boton-verde-home
+{
+  background: #39b24a;
+}
+.boton-naranja-home
+{
+  background:#ffa825;
+}
+.card{
+  border-radius: 0.1em;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin: 1em 1em;
+  display: inline-block;
+}
+.card img{
+  width: 300px;
+}
+.card:hover{
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0,0,0,0.24);
+}
+.color-naranja
+{
+  color: #f14321;
+}
+.color-blanco{
+  color: white;
+}
+.contenedor-titulo
+{
+  border-bottom: 1px solid #f14321;
+}
+.contenedor-info-servicios
+{
+  border:1px solid rgba(211, 211, 211, 0.38);
+  margin: 4em  0 4em 0;
+  padding: 1em;
+}
+.contenedor-info-servicios img
+{
+  width: 110px;
+  margin: 3em 0;
+}
+.container
+{
+  background: white;
+}
+.dormitorios-inmueble
+{
+  position: absolute;
+  margin: 4em 0 0 13em;
+}
+.fondo-call
+{
+    background: url(../images/fondo2.jpg);
+    background-size: cover;
+    position: static;
+    background-color: rgba(8, 8, 8, 0.75);
+    background-blend-mode: darken;
+    padding: 6em 0;
+}
+
+.imagen-banner-pie img
+{
+  width: 100%;
+}
+
+.icon-home:before {
+  font-family: 'icono';
+  content: "\e900";
+}
+
+.icon-envelop:before {
+  font-family: 'icono';
+  content: "\e945";
+}
+.icon-phone:before {
+  font-family: 'icono';
+  content: "\e942";
+}
+.icon-coin-dollar:before {
+  color:#f14321;
+  font-family: 'icon2';
+  content: "\e93b";
+}
+.icon-play3:before {
+  color:#f14321;
+  font-family: 'icon2';
+  content: "\ea1c";
+}
+
+.informacion-inmueble{
+  width: 300px;
+  height: 127px;
+}
+.margen
+{
+  margin: 1em;
+}
+.metros-inmueble
+{
+  position: absolute;
+  margin: 4em 0 0 1em;
+}
+.nombre-barrio
+{
+  position: absolute;
+  margin: 0.1em 0 0 0.1em;
+}
+.nombre-ciudad
+{
+  position: absolute;
+  margin: 1.7em 0 0 0.3em;
+}
+.seccion-inmuebles
+{
+  background: #d3d3d3;
+}
+.quitar-pading
+{
+  padding: 0;
+}
+.quitar-float
+{
+  float: none;
+}
+.redes-sociales{
+  list-style: none;
+  text-decoration: none;
+  padding: 3em;
+  font-size: 2em;
+  background-color: #eaeaea;
+ }
+ .redes-sociales ul{
+   margin: 0;
+   padding: 0;
+ }
+ .redes-sociales ul li{
+   margin: 0;
+   padding: 0 0.5em;
+   display: inline-block;
+ }
+.retraso-1
+{
+  animation-delay: 1s;
+}
+.seccion-quienes-somos
+{
+  background: white;
+  padding: 3em;
+}
+.seccion-servicios
+{
+  background: white;
+  padding: 3em;
+}
+.texto-quienes-somos
+{
+  margin: 3em 0;
+}
+.titulo-aliados
+{
+  color: #333;
+  border-top: 1px solid #d3d3d3;
+  padding: 2em;
+}
+
+.titulos-principales
+{
+  margin: 0;
+  background: #333;
+  color: white;
+  width: 200px;
+}
+.titulo-servicios-individual
+{
+  margin: 0;
+  background:#f14321;
+  color: white;
+  font-size: 1.4em;
+  padding: 0.2em;
+  width: 150px;
+}
+.valor-inmueble{
+  position: absolute;
+  margin: 3.8em 0 0 0em;
+  background: #3aa294;
+  color: white;
+  padding: 0.2em 4.2em;
+  border-bottom: 2px solid #058372;
+}
+.venta-arriendo{
+  position: absolute;
+  margin: -1.48em 0 0 0em;
+  background-color: rgba(240, 66, 32, 0.85);
+  padding: 0.2em 1.1em;
+  text-transform: uppercase;
+}
